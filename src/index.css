@@ -14,6 +14,9 @@ body {
 .card-box {
   margin-top: -2px;
 }
+.card-preview {
+  padding-bottom:10px;
+}
 .overlay-padding {
   padding:5px !important;
 }
@@ -31,6 +34,9 @@ body {
 }
 .printBox .card_main{
   margin-bottom: 20px;
+}
+.card-main-img {
+  margin-left: -1px !important;
 }
 .card_mana, .card_type {
   background-color: #ffffff;

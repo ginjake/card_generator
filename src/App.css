@@ -13,14 +13,14 @@
   padding: 20px;
   color: white;
 }
-.active {
-  background-color: #2196f3;
+.nav_item {
   margin-right: 10px;
-  border-radius: 5px;
+  margin-left: 5px;
 }
-.active a{
-    color: #fff !important;
+.navbar-right {
+  margin-left: auto;
 }
+
 .navbar-brand {
   text-align:center;
 }

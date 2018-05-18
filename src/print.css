@@ -2,6 +2,10 @@
   .navbar {
     display: none;
   } 
+  .container {
+    margin:0 0 0 0 !important;
+    padding:0 0 0 0 !important;
+  }
   .no_print {
     display :none !important;
   }
@@ -11,5 +15,9 @@
   .row:nth-child(3n){
     clear:both;
     page-break-after: always;
+    margin-top:30px !important;
+  }
+  .row:nth-child(3n + 1){
+    margin-top:30px !important;
   }
 }

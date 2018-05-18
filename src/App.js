@@ -51,33 +51,46 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="container">
+      <div>
         <Navigation />
-        <h1 className="no_print">カードジェネレーター</h1>
-        <div className="row no_print">
-          <div className="col-sm-8">
-            <FormBox data={this.card_data} onEventCallback={e => this.receive(e)}/>
-            <button className="btn btn-primary btn-lg btn-block" onClick={this.onClick}>カードを作る!</button>
+        <div className="container">
+          <div className="row mt-5 no_print">
+            <div className="col-sm-8">
+              <FormBox data={this.card_data} onEventCallback={e => this.receive(e)}/>
+              <button className="btn btn-primary btn-lg btn-block" onClick={this.onClick}>カードを作る!</button>
+            </div>
+            <div className="col-sm-4">
+              <div className="card">
+                  <div className="card-body">
+                      <h5 className="card-title">説明</h5>
+                      <div className="card-text">カードを作成してブラウザ上で印刷することができます</div>
+                      <div className="card-text">プロトタイプ製作にどうぞ</div>
+                      <p className="card-text">
+                          <small className="text-muted">Chrome推奨です</small>
+                      </p>
+                  </div>
+                  <div className="card-preview">
+                    <CardBox data={this.card_data} ref='FirstCardBox'/>
+                  </div>
+              </div>
+            </div>
           </div>
-          <div>
-          <CardBox data={this.card_data} ref='FirstCardBox'/>
+          <div className="printBox">
+            {
+              Object.keys(this.cardlist).filter(key => key%this.card_row_limit === 0).map(
+                (carddata,i) => { 
+                    return React.createElement('div',{className:'row'},((row_data,num) =>
+                      Object.keys(this.cardlist).filter(key => ((key >= num*this.card_row_limit) && (key <= num*this.card_row_limit+(this.card_row_limit-1)))).map(
+                        (row_card_data,in_row_number) =>  {
+                          var card_num = num*this.card_row_limit+in_row_number
+                          return React.createElement(CardBox, {data:this.cardlist[card_num], index:card_num, ref:"card"+(card_num)})
+                        }
+                      )
+                    )(this.cardlist,i))
+                }
+              )
+            }
           </div>
-        </div>
-        <div className="printBox">
-          {
-            Object.keys(this.cardlist).filter(key => key%this.card_row_limit === 0).map(
-              (carddata,i) => { 
-                  return React.createElement('div',{className:'row'},((row_data,num) =>
-                    Object.keys(this.cardlist).filter(key => ((key >= num*this.card_row_limit) && (key <= num*this.card_row_limit+(this.card_row_limit-1)))).map(
-                      (row_card_data,in_row_number) =>  {
-                        var card_num = num*this.card_row_limit+in_row_number
-                        return React.createElement(CardBox, {data:this.cardlist[card_num], index:card_num, ref:"card"+(card_num)})
-                      }
-                    )
-                  )(this.cardlist,i))
-              }
-            )
-          }
         </div>
       </div>
     );
