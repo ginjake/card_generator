@@ -12,9 +12,9 @@ Reactとbootstrap4の勉強用に作ったもの。  
 http://hogehoge:3000 でアクセス可能
 
 ### npm run build
-本番用にビルドする。
-cardディレクトリに公開する設定になっているので、
-フォルダを変えるときは
-config/paths.js　の
+本番用にビルドする。  
+cardディレクトリに公開する設定になっているので、  
+フォルダを変えるときは  
+config/paths.js　の  
 `envPublicUrl || (publicUrl ? url.parse(publicUrl).pathname : '/card');`
 を変更する
