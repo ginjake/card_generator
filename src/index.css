@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.card_main{
+  width:300px;
+  height:400px;
+  border-radius:2px;
+  border: 2px solid #666666;
+  overflow: hidden;
+  position: relative;
+}
+.card-box {
+  margin-top: -2px;
+}
+.overlay-padding {
+  padding:5px !important;
+}
+.card_atk, .card_def {
+  background-color: #ffffff;
+  padding: 5px;
+  min-width:50px;
+  min-height:50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size:1.5em;
+}
+.printBox {
+  margin-top: 40px;
+}
+.printBox .card_main{
+  margin-bottom: 20px;
+}
+.card_mana, .card_type {
+  background-color: #ffffff;
+  padding: 3px;
+  min-width:30px;
+  min-height:30px;
+  text-align: center;
+  border-radius: 5px;
+  font-size:1.0em;
+}
+.card_atk, .card_mana{
+  float:left;
+}
+.card_def, .card_type {
+  float:right;
+}
+.card_name {
+  background-color: #ffffff;
+  margin-top:5px;
+  width:150px;
+  padding-top: 5px;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+}
+.card_race {
+  background-color: #ffffff;
+  width:150px;
+  padding-top: 3px;
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+  font-size: 0.7em;
+}
+.card-detail-text {
+  background-color: #FFFFFF;
+  margin-right:10px;
+  margin-left:10px;
+  margin-top: 195px;
+  padding: 4px;
+  border-radius: 5px;
+  height:93px;
+  font-size: 0.7em;
+}

@@ -1,0 +1,780 @@
+
+> card@0.1.0 start /var/www/html/card
+> react-scripts start
+
+Starting the development server...
+
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag (57:6)
+
+  55 |         </div>
+  56 |       </div>
+> 57 |       <script>
+     |       ^
+  58 |       function preview(ele) {
+  59 |         if (!ele.files.length) return;  // ファイル未選択
+  60 |
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+Syntax error: Unexpected token (58:10)
+
+  56 |         <script>
+  57 |         function preview(ele) {
+> 58 |           if (!ele.files.length) return;  // ファイル未選択
+     |           ^
+  59 |           
+  60 |           var file = ele.files[0];
+  61 |           if (!/^image\/(png|jpeg|gif)$/.test(file.type)) return;  // typeプロパティでMIMEタイプを参照
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+Syntax error: Unexpected token (58:12)
+
+  56 |         <script>
+  57 |           function preview(ele) {
+> 58 |             if (!ele.files.length) return;  // ファイル未選択
+     |             ^
+  59 |             
+  60 |             var file = ele.files[0];
+  61 |             if (!/^image\/(png|jpeg|gif)$/.test(file.type)) return;  // typeプロパティでMIMEタイプを参照
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 66:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+Syntax error: Unexpected token (66:36)
+
+  64 |           <label for="image">画像。まだ出来てない</label>
+  65 |           <input type="file" class="form-control" id="image" placeholder="10"  onChange={this.testa}/>
+> 66 |           <div id="preview_field"></>
+     |                                     ^
+  67 |         </div>
+  68 |         <div class="form-group">
+  69 |           <label for="race">タイプ</label>
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:  'Component' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+  Line 13:  'createObjectURL' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+  Line 13:  'createObjectURL' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/App.js
+Syntax error: Unexpected token, expected , (18:6)
+
+  16 |       race: "ランチ族",
+  17 |       image: ""
+> 18 |       detail:"説明あいうえおあいうえおabc"
+     |       ^
+  19 |     }; 
+  20 |   }
+  21 |   receive (data) {
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used       no-unused-vars
+  Line 10:  'files' is assigned a value but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+Syntax error: Expected corresponding JSX closing tag for <img> (62:26)
+
+  60 |           <label for="image">画像。まだ出来てない</label>
+  61 |           <input type="file" class="form-control" id="image" placeholder="10"  onChange={this.testa}/>
+> 62 |           <img id="image"></div>
+     |                           ^
+  63 |         </div>
+  64 |         <div class="form-group">
+  65 |           <label for="race">タイプ</label>
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 62:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 62:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 62:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 62:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: You attempted to import ../img/sample_card.jpg which falls outside of the project src/ directory. Relative imports outside of src/ are not supported. You can either move it inside src/, or add a symlink to it from project's node_modules/.
+Compiling...
+Failed to compile.
+
+./src/App.js
+Module not found: You attempted to import ../img/sample_card.jpg which falls outside of the project src/ directory. Relative imports outside of src/ are not supported. You can either move it inside src/, or add a symlink to it from project's node_modules/.
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 66:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 66:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+  Line 28:  'e' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+  Line 23:  'upImage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Failed to compile.
+
+./src/components/FormBox.js
+  Line 23:  'upImage' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 69:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 66:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Compiling...
+Compiled with warnings.
+
+./src/components/FormBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 10:  'files' is assigned a value but never used                                                                 no-unused-vars
+  Line 67:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+./src/components/CardBox.js
+  Line 1:   'Component' is defined but never used                                                                      no-unused-vars
+  Line 2:   'sample_img' is defined but never used                                                                     no-unused-vars
+  Line 16:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+

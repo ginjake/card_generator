@@ -1,0 +1,15 @@
+@media print{
+  .navbar {
+    display: none;
+  } 
+  .no_print {
+    display :none !important;
+  }
+  .printBox {
+    margin-top: 20px !important;
+  }
+  .row:nth-child(3n){
+    clear:both;
+    page-break-after: always;
+  }
+}
